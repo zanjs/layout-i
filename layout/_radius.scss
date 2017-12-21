@@ -2,7 +2,7 @@
   border-radius: 100%;
   @for $i from 0 through 20 {
     &_#{$i} {
-      border-radius: #{$i}px;
+      border-radius: #{$i}px;/*px*/
     }
   }
 }

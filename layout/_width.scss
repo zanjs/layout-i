@@ -5,7 +5,7 @@
     }
     @for $i from 0 through 100 {
         &_#{$i} {
-            width: #{$i}px;
+            width: #{$i}px;/*px*/
         }
     }
 }

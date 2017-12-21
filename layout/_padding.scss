@@ -9,27 +9,27 @@ $padding-y: -y!default;
   .#{$padding-prefix} {
     // four
     &_#{$i} {
-      padding: #{$i}px;
+      padding: #{$i}px;/*px*/
     } //  左右
     &#{$padding-x}_#{$i} {
-      padding-left: #{$i}px;
-      padding-right: #{$i}px;
+      padding-left: #{$i}px;/*px*/
+      padding-right: #{$i}px;/*px*/
     } // 上下
     &#{$padding-y}_#{$i} {
-      padding-top: #{$i}px;
-      padding-bottom: #{$i}px;
+      padding-top: #{$i}px;/*px*/
+      padding-bottom: #{$i}px;/*px*/
     } // 左
     &-left_#{$i} {
-      padding-left: #{$i}px;
+      padding-left: #{$i}px;/*px*/
     } // 右
     &-right_#{$i} {
-      padding-right: #{$i}px;
+      padding-right: #{$i}px;/*px*/
     } // 上
     &-top_#{$i} {
-      padding-top: #{$i}px;
+      padding-top: #{$i}px;/*px*/
     } // 下
     &-bottom_#{$i} {
-      padding-bottom: #{$i}px;
+      padding-bottom: #{$i}px;/*px*/
     }
   }
 }
