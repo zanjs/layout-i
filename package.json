@@ -1,6 +1,6 @@
 {
   "name": "layouti.css",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "layouti.css",
   "style": "layouti.css",
@@ -13,16 +13,14 @@
   },
   "author": "Julian @zanjs",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "autoprefixer": "^7.2.3",
     "gulp": "^3.9.1",
     "gulp-notify": "^3.0.0",
     "gulp-postcss": "^7.0.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.1"
-  },
-  "devDependencies": {
+    "gulp-sourcemaps": "^2.6.1",
     "gulp-minify-css": "^1.2.4"
   }
 }
