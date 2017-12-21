@@ -8,7 +8,7 @@ var sourcemaps = require('gulp-sourcemaps');
 var minifycss =  require('gulp-minify-css');
 
 var config = {
-    mincss: 'layout.i.css',
+    mincss: 'layouti.css',
     publicDir: './public'
 };
 
@@ -28,7 +28,7 @@ gulp.task('css', function() {
     .pipe(rename(config.mincss))
     .pipe(minifycss())
     .pipe(sourcemaps.write('./'))
-    .pipe(gulp.dest(config.publicDir + '/css'));
+    .pipe(gulp.dest('./'));
 });
 
 

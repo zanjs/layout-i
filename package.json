@@ -1,8 +1,12 @@
 {
-  "name": "layout-i",
+  "name": "layouti.css",
   "version": "0.0.1",
   "description": "",
-  "main": "./public/css/layout.i.css",
+  "main": "layouti.css",
+  "style": "layouti.css",
+  "files": [
+    "layouti.css"
+  ],
   "scripts": {
     "start": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
