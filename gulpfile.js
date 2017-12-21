@@ -8,15 +8,15 @@ var sourcemaps = require('gulp-sourcemaps');
 var minifycss =  require('gulp-minify-css');
 
 var config = {
-    mincss: 'layouti.css',
-    publicDir: './css/'
+    mincss: 'layouti.mini.css',
+    publicDir: './'
 };
 
 gulp.task('css', function() {
     var processors = [
         autoprefixer
     ]
-    return gulp.src('./main.scss')
+    return gulp.src('./layouti.scss')
     .pipe(sass()
     .on("error", notify.onError(function (error) {
         return "Error: " + error.message;

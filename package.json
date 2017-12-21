@@ -1,11 +1,11 @@
 {
   "name": "layouti.css",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
-  "main": "./css/main.css",
-  "style": "./css/main.css",
+  "main": "layouti.css",
+  "style": "layouti.css",
   "files": [
-    "./css/main.css"
+    "layouti.css"
   ],
   "scripts": {
     "start": "gulp",
