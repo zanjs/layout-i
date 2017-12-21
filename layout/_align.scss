@@ -1,27 +1,12 @@
 // 布局对其
-.align {
-  // 文本对齐
-  &-text {
-    // 居中对齐
-    &-center {
-      text-align: center;
-    }
-    &-right {
-      text-align: right;
-    }
-    &-left {
-      text-align: left;
-    }
+.item {
+  &-center {
+    align-items: center;
   }
-  &-item {
-    &-center {
-      align-items: center;
-    }
-    &-start {
-      align-items: flex-start;
-    }
-    &-end {
-      align-items: flex-end;
-    }
+  &-start {
+    align-items: flex-start;
+  }
+  &-end {
+    align-items: flex-end;
   }
 }

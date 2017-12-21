@@ -1,5 +1,5 @@
 // line height
-.line-h {
+.l-h {
   @for $i from 0 through 50 {
     &_#{$i} {
       line-height: #{$i}px;
