@@ -13,8 +13,7 @@
   }
   &-clamp {
     &_1 {
-      display: -webkit-box;
-      display: box;
+      display: flex;
       -webkit-line-clamp: 1;
       -webkit-box-orient: vertical;
       text-overflow: ellipsis;
@@ -22,8 +21,7 @@
       word-break: break-all;
     }
     &_2 {
-      display: -webkit-box;
-      display: box;
+      display: flex;
       -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
       text-overflow: ellipsis;
