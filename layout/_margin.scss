@@ -6,34 +6,34 @@ $margin-y:-y!default;
     margin: #{$i}px;
     &#{$margin-x} {
       &_#{$i} {
-        margin-left:#{$i}px;/*px*/
-        margin-right:#{$i}px;/*px*/
+        margin-left:#{$i}px;/*no*/
+        margin-right:#{$i}px;/*no*/
       }
     }
     &#{$margin-y} {
       &_#{$i} {
-        margin-top:#{$i}px;/*px*/
-        margin-bottom:#{$i}px;/*px*/
+        margin-top:#{$i}px;/*no*/
+        margin-bottom:#{$i}px;/*no*/
       }
     }
     &-top {
       &_#{$i} {
-        margin-top:#{$i}px;/*px*/
+        margin-top:#{$i}px;/*no*/
       }
     }
     &-right {
       &_#{$i} {
-        margin-right:#{$i}px;/*px*/
+        margin-right:#{$i}px;/*no*/
       }
     }
     &-bottom {
       &_#{$i} {
-        margin-bottom:#{$i}px;/*px*/
+        margin-bottom:#{$i}px;/*no*/
       }
     }
     &-left {
       &_#{$i} {
-        margin-left:#{$i}px;/*px*/
+        margin-left:#{$i}px;/*no*/
       }
     }
   }

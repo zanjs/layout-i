@@ -6,7 +6,7 @@
   }
   @for $i from 0 through 100 {
     &_#{$i} {
-      height: #{$i}px; /*px*/
+      height: #{$i}px; /*no*/
     }
   }
 }
