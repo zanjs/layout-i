@@ -1,11 +1,11 @@
 {
-  "name": "layouti.scss",
-  "version": "0.0.5",
+  "name": "layouti.css",
+  "version": "0.0.6",
   "description": "",
-  "main": "main.scss",
-  "style": "main.scss",
+  "main": "./css/main.css",
+  "style": "./css/main.css",
   "files": [
-    "main.scss"
+    "./css/main.css"
   ],
   "scripts": {
     "start": "gulp",

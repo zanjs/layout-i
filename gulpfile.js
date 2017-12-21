@@ -9,7 +9,7 @@ var minifycss =  require('gulp-minify-css');
 
 var config = {
     mincss: 'layouti.css',
-    publicDir: './public'
+    publicDir: './css/'
 };
 
 gulp.task('css', function() {
@@ -22,7 +22,7 @@ gulp.task('css', function() {
         return "Error: " + error.message;
     })))
     .pipe(notify({ message: 'scss convert to css done.'}))
-    .pipe(gulp.dest(config.publicDir + '/css'))
+    .pipe(gulp.dest(config.publicDir))
     .pipe(sourcemaps.init())
     .pipe(postcss(processors))
     .pipe(rename(config.mincss))
