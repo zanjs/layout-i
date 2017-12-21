@@ -1,0 +1,23 @@
+// 前缀
+// to 不包括end
+// through 包括end
+.font {
+  &_0 {
+    font-size: 0 !important;
+  }
+  @for $i from 11 to 40 {
+    &_#{$i} {
+      font-size: #{$i}px !important;
+    }
+  }
+  &-noraml {
+    font-style: normal !important;
+  }
+  &-family {
+    font-family: 'PingFangTC-Regular', PingFangSC-Light, "Microsoft Yahei", "微软雅黑", sans-serif;
+  }
+}
+
+.strong {
+  font-weight: bold;
+}
