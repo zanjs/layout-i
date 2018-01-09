@@ -1,11 +1,12 @@
 // w
 .w {
-    &-auto {
-        width: auto;
+  width: 100%;
+  &-auto {
+    width: auto;
+  }
+  @for $i from 0 through 100 {
+    &_#{$i} {
+      width: #{$i}px; /*no*/
     }
-    @for $i from 0 through 100 {
-        &_#{$i} {
-            width: #{$i}px;/*no*/
-        }
-    }
+  }
 }
