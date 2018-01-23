@@ -5,7 +5,7 @@ $padding-x: -x!default;
 $padding-y: -y!default;
 // to 不包括end
 // through 包括end
-@for $i from 0 through 40 {
+@for $i from 0 through 30 {
   .#{$padding-prefix} {
     // four
     &_#{$i} {

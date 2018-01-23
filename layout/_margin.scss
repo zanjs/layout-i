@@ -1,9 +1,8 @@
 $margin:mg!default;
 $margin-x:-x!default;
 $margin-y:-y!default;
-@for $i from 0 through 40 {
+@for $i from 0 through 30 {
   .#{$margin} {
-    margin: #{$i}px;
     &#{$margin-x} {
       &_#{$i} {
         margin-left:#{$i}px;/*no*/

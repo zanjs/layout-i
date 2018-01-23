@@ -5,7 +5,7 @@
   &_0 {
     font-size: 0 !important;
   }
-  @for $i from 11 to 40 {
+  @for $i from 11 to 38 {
     &_#{$i} {
       font-size: #{$i}px !important;/*no*/
     }

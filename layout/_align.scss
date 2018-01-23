@@ -10,3 +10,10 @@
     align-items: flex-end;
   }
 }
+
+// 垂直
+.vertical{
+  &-mid {
+    vertical-align: middle;
+  }
+}

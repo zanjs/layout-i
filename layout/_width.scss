@@ -4,7 +4,7 @@
   &-auto {
     width: auto;
   }
-  @for $i from 0 through 100 {
+  @for $i from 0 through 50 {
     &_#{$i} {
       width: #{$i}px; /*no*/
     }
