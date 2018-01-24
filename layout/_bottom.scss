@@ -1,0 +1,7 @@
+.bottom {
+  @for $i from 0 through 10 {
+    &_#{$i} {
+      bottom: #{$i}px;/*no*/
+    }
+  }
+}
