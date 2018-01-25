@@ -1684,10 +1684,10 @@
 .hidden {
   overflow: hidden; }
 
-.scroll-y {
+.scroll_y {
   overflow-y: scroll; }
 
-.scroll-x {
+.scroll_x {
   overflow-x: scroll; }
 
 .pd_0 {
