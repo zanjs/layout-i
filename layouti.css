@@ -1686,9 +1686,13 @@
 
 .scroll_y {
   overflow-y: scroll; }
+  .scroll_y_a {
+    overflow-y: auto; }
 
 .scroll_x {
   overflow-x: scroll; }
+  .scroll_x_a {
+    overflow-x: auto; }
 
 .pd_0 {
   padding: 0px;

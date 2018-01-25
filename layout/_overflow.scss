@@ -5,8 +5,14 @@
 .scroll {
   &_y {
     overflow-y: scroll;
+    &_a{
+      overflow-y: auto;
+    }
   }
   &_x {
     overflow-x: scroll;
+    &_a{
+      overflow-x: auto;
+    }
   }
 }
